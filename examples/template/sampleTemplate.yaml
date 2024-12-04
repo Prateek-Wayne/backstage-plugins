@@ -1,0 +1,45 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-template
+kind: Template
+metadata:
+  name: NoDataTemplate
+  title: This is a no efficiency Data template
+  description: A template to improve nothing
+spec:
+  owner: user:guest
+  type: service
+
+  # These parameters are used to generate the input form in the frontend, and are
+  # used to gather input data for the execution of the template.
+  parameters:
+    - title: Fill in some details about your devops
+      required:
+        - name
+      properties:
+        name:
+          title: Devops
+          type: string
+          description: Unique name of your devops component
+          ui:autofocus: true
+          ui:options:
+            rows: 5
+
+  # These steps are executed in the scaffolder backend, using data that we gathered
+  # via the parameters above.
+  steps:
+    # Each step executes an action, in this case one templates files into the working directory.
+    - id: fetch-base
+      name: Fetch Base
+      action: fetch:template
+      input:
+        url: ./content
+        values:
+          name: ${{ parameters.name }}
+
+    # This step publishes the contents of the working directory to GitHub.
+
+  # Outputs are displayed to the user after a successful execution of the template.
+  output:
+    links:
+      - title: Devops
+        url: ${{ steps.parameters.name}}
