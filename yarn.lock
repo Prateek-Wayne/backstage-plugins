@@ -8893,9 +8893,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prateek/backstage-plugin-scaffold-insight@workspace:^, @prateek/backstage-plugin-scaffold-insight@workspace:plugins/scaffold-insight":
+"@prateek-wayne/backstage-plugin-scaffold-insight@workspace:^, @prateek-wayne/backstage-plugin-scaffold-insight@workspace:plugins/scaffold-insight":
   version: 0.0.0-use.local
-  resolution: "@prateek/backstage-plugin-scaffold-insight@workspace:plugins/scaffold-insight"
+  resolution: "@prateek-wayne/backstage-plugin-scaffold-insight@workspace:plugins/scaffold-insight"
   dependencies:
     "@backstage/cli": "npm:^0.29.0"
     "@backstage/core-app-api": "npm:^1.15.2"
@@ -13716,7 +13716,7 @@ __metadata:
     "@material-ui/core": "npm:^4.12.2"
     "@material-ui/icons": "npm:^4.9.1"
     "@playwright/test": "npm:^1.32.3"
-    "@prateek/backstage-plugin-scaffold-insight": "workspace:^"
+    "@prateek-wayne/backstage-plugin-scaffold-insight": "workspace:^"
     "@testing-library/dom": "npm:^9.0.0"
     "@testing-library/jest-dom": "npm:^6.0.0"
     "@testing-library/react": "npm:^14.0.0"

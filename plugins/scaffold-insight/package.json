@@ -1,5 +1,5 @@
 {
-  "name": "@prateek/backstage-plugin-scaffold-insight",
+  "name": "@prateek-wayne/backstage-plugin-scaffold-insight",
   "version": "0.1.0",
   "main": "src/index.ts",
   "types": "src/index.ts",

@@ -36,7 +36,7 @@ import { AppRouter, FlatRoutes } from '@backstage/core-app-api';
 import { CatalogGraphPage } from '@backstage/plugin-catalog-graph';
 import { RequirePermission } from '@backstage/plugin-permission-react';
 import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/alpha';
-import { ScaffolderAnalyticsPage } from '@prateek/backstage-plugin-scaffold-insight';
+import { ScaffolderAnalyticsPage } from '@prateek-wayne/backstage-plugin-scaffold-insight';
 
 const app = createApp({
   apis,
