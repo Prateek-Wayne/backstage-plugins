@@ -1,7 +1,7 @@
-import { scaffoldInsightPlugin } from './plugin';
+import { scaffolderanalyticsPlugin } from './plugin';
 
-describe('scaffold-insight', () => {
+describe('scaffolderanalytics', () => {
   it('should export plugin', () => {
-    expect(scaffoldInsightPlugin).toBeDefined();
+    expect(scaffolderanalyticsPlugin).toBeDefined();
   });
 });

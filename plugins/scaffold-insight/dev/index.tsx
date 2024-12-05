@@ -1,12 +1,12 @@
 import React from 'react';
 import { createDevApp } from '@backstage/dev-utils';
-import { scaffoldInsightPlugin, ScaffoldInsightPage } from '../src/plugin';
+import { scaffolderanalyticsPlugin, ScaffolderanalyticsPage } from '../src/plugin';
 
 createDevApp()
-  .registerPlugin(scaffoldInsightPlugin)
+  .registerPlugin(scaffolderanalyticsPlugin)
   .addPage({
-    element: <ScaffoldInsightPage />,
+    element: <ScaffolderanalyticsPage />,
     title: 'Root Page',
-    path: '/scaffold-insight',
+    path: '/scaffolderanalytics',
   })
   .render();
