@@ -1,1 +1,1 @@
-export { scaffolderanalyticsPlugin, ScaffolderanalyticsPage } from './plugin';
+export { scaffolderAnalyticsPlugin, ScaffolderAnalyticsPage } from './plugin';

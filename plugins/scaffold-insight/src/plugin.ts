@@ -13,7 +13,7 @@ import {
   ScaffolderAnalyticsClient,
 } from './api/api';
 
-export const scaffolderanalyticsPlugin = createPlugin({
+export const scaffolderAnalyticsPlugin = createPlugin({
   id: 'scaffolderanalytics',
   routes: {
     root: rootRouteRef,
@@ -38,7 +38,7 @@ export const scaffolderanalyticsPlugin = createPlugin({
   ],
 });
 
-export const ScaffolderanalyticsPage = scaffolderanalyticsPlugin.provide(
+export const ScaffolderAnalyticsPage = scaffolderAnalyticsPlugin.provide(
   createRoutableExtension({
     name: 'ScaffolderanalyticsPage',
     component: () =>
