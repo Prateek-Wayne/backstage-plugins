@@ -19,7 +19,11 @@
     "types": "dist/index.d.ts"
   },
   "backstage": {
-    "role": "frontend-plugin"
+    "role": "frontend-plugin",
+    "pluginId": "scaffold-insight",
+    "pluginPackages": [
+      "@prateek-wayne/backstage-plugin-scaffold-insight"
+    ]
   },
   "sideEffects": false,
   "scripts": {
