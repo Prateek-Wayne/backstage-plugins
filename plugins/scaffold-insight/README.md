@@ -56,6 +56,6 @@ metadata:
 The efficiency-boost section is extra metadata that this plugin will read from the template file.
 
 Screenshot 📸
-
+<img width="1668" alt="image" src="https://github.com/user-attachments/assets/cd69303c-75fb-411a-9f37-319cfc493e6a">
 Contributions
 This plugin can be improved a lot. Please feel free to raise issues and features. 💡
